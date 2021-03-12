@@ -27,6 +27,9 @@ body {
     font-size: x-large;
 }
 
+.foto {
+    border-radius: 50%;
+}
 
 main {
     background-color: rgb(214, 201, 144);
