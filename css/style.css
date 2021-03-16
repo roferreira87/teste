@@ -8,7 +8,7 @@ article {
     background-color: rgb(204, 226, 226);
 }
 
-aside {
+.aside {
     background-color: teal;
     margin-left: 0.5rem;
     padding: 0.5em;
@@ -34,10 +34,12 @@ body {
     
 }
 
-main {
+.main {
     background-color: rgb(214, 201, 144);
     border: 2px solid;
-    padding: 1em;
+    flex-direction: column;
+    display: flex;
+    padding: 0.5rem;
 }
 
 section {
@@ -49,4 +51,10 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
 }
