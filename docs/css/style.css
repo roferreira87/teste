@@ -1,0 +1,67 @@
+
+a{
+    color: wheat ;
+    text-decoration: none;
+}
+
+article { 
+    background-color: rgb(204, 226, 226);
+}
+
+.aside {
+    background-color: teal;
+    margin-left: 0.5rem;
+    padding: 0.5em;
+}
+
+body {
+    background-color: whitesmoke;
+    border: 5px solid;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.3em;
+    }
+
+.cabecalho {
+    background-color: black;
+    font-size: x-large;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.main {
+    background-color: rgb(214, 201, 144);
+    border: 2px solid;
+    flex-direction: column;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.paragrafo-sobre {
+    border-radius: 50%;
+    
+    display: flex;
+    margin: 1em;
+    }
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloInicio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+}
